@@ -37,6 +37,9 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-grow: 1;
   width: 80vw;
   max-width: 60rem;
@@ -44,7 +47,7 @@ body {
 
 .add-container {
   position: sticky;
-  bottom: 0;
+  bottom: 2rem;
 
   height: 4rem;
   display: flex;
@@ -88,7 +91,7 @@ body {
   width: 0.8rem;
 }
 
-.list {
+#list {
   display: flex;
   gap: 1rem;
   flex-direction: column;
